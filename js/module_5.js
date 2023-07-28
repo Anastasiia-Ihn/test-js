@@ -967,15 +967,18 @@
 
 // console.log(even('kmkesfmekf efmekfmekf'));
 
-const filterString=(str,symbol)=>{
-const newStr = '';
-let i=0;
-    while (i <= str.length - 1) {
+// const filterString=(str,symbol)=>{
+// const newStr = '';
+// let i=0;
+//     while (i <= str.length - 1) {
         
-if(str[i] !==symbol){
-    newStr = newStr+ str[i];
-    }i = i+ 1;
+// if(str[i] !==symbol){
+//     newStr = newStr+ str[i];
+//     }i = i+ 1;
   
-} return newStr
-}
-console.log(filterString('jkjoij', 'k'));
+// } return newStr
+// }
+// console.log(filterString('jkjoij', 'k'));
+
+// const hasChar =(str, letter)=> str.includes(letter)
+// console.log(hasChar('ytrewq', 'w'));
